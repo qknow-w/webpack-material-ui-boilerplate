@@ -1,37 +1,16 @@
 import React from 'react'
 import {Route, IndexRoute, Link} from 'react-router'
+import App from "../containers/App"
+import Betting from "../containers/Betting"
+import History from "../containers/History"
+import Home from "../containers/Home"
 
-const App = ({children}) => {
-    return (
-        <div>
-            <header>
-                Links: {' '}
-                <Link to="/">Home</Link>
-                {' '}
-                <Link to="/foo">Foo</Link>
-                {' '}
-                <Link to="/bar">Bar</Link>
-            </header>
-            {children}
-        </div>
-    )
-}
-
-const Home = () => (
-    <div>Home!</div>
-)
-const Foo = () => (
-    <div>Foo!</div>
-)
-const Bar = () => (
-    <div>Bar!</div>
-)
 
 const routes = (
     <Route path="/" component={App}>
         <IndexRoute component={Home}/>
-        <Route path="foo" component={Foo}/>
-        <Route path="bar" component={Bar}/>
+        <Route path="betting" component={Betting}/>
+        <Route path="history" component={History}/>
     </Route>
 )
 
