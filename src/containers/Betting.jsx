@@ -123,6 +123,49 @@ class Betting extends React.Component {
               <NotificationsIcon/>
             </IconButton>
           </Badge>
+          <Badge badgeContent={"一半"} primary={true} badgeStyle={{
+            top: 12,
+            right: 12
+          }}>
+            <IconButton tooltip="一半">
+              <NotificationsIcon/>
+            </IconButton>
+          </Badge>
+        </div>
+
+        <div style={{marginTop:20}}>
+          <Badge badgeContent={"1"} primary={true} badgeStyle={{
+            top: 12,
+            right: 12
+          }}>
+            <IconButton tooltip="1">
+              <NotificationsIcon/>
+            </IconButton>
+          </Badge>
+          <Badge badgeContent={"2"} secondary={true} badgeStyle={{
+            top: 12,
+            right: 12
+          }}>
+            <IconButton tooltip="2">
+              <NotificationsIcon/>
+            </IconButton>
+          </Badge>
+          <Badge badgeContent={"5"} primary={true} badgeStyle={{
+            top: 12,
+            right: 12
+          }}>
+            <IconButton tooltip="5">
+              <NotificationsIcon/>
+            </IconButton>
+          </Badge>
+          <Badge badgeContent={"12"} secondary={true} badgeStyle={{
+            top: 12,
+            right: 12
+          }}>
+            <IconButton tooltip="12">
+              <NotificationsIcon/>
+            </IconButton>
+          </Badge>
         </div>
       </div>
     )
