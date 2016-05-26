@@ -4,7 +4,7 @@ This is an example project that uses [Material-UI](http://callemall.github.io/ma
 
 ## Installation
 
-  git clone https://github.com/503945930/webpack-material-ui-boilerplate.git
-  cd webpack-material-ui-boilerplate
-  npm install
-  npm start
+    git clone https://github.com/503945930/webpack-material-ui-boilerplate.git
+    cd webpack-material-ui-boilerplate
+    npm install
+    npm start
